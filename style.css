@@ -1,4 +1,6 @@
-
+header{
+    position: relative;
+}
 
 
 .headerp1{
@@ -44,6 +46,7 @@ header img{
     width: 140px;
     height: 48px;
 }
+
 .boldtext{
     font-weight: bold;
 }
@@ -51,7 +54,10 @@ header img{
     border-radius: 20px;
     font-family: 'Open Sans', sans-serif;
     border: 1px solid #00000036;
-    padding: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
     width: 50%;
     MARGIN: 30px auto;
 }
@@ -260,8 +266,6 @@ display: flex;
     display: flex;
     justify-content: center;
 }
-.truccc{
-}
 .Rapide{
     position: relative;
     z-index: 3 ;
@@ -405,6 +409,7 @@ display: flex;
     margin-top: 160px;
 }
 .bettrave{
+    cursor: pointer; 
     border: 1px solid #ffffff  ;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -422,6 +427,7 @@ display: flex;
     padding-bottom: 10px;
 }
 .artichaut{
+    cursor: pointer; 
     border: 1px solid #ffffff  ;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -439,6 +445,7 @@ display: flex;
     padding-bottom: 10px;
 }
 .chouvert{
+    cursor: pointer; 
     border: 1px solid #ffffff  ;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -456,6 +463,7 @@ display: flex;
     padding-bottom: 10px;
 }
 .poireau{
+    cursor: pointer; 
     border: 1px solid #ffffff  ;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -473,6 +481,7 @@ display: flex;
     padding-bottom: 10px;
 }
 .pommes{
+    cursor: pointer; 
     border: 1px solid #ffffff  ;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -490,6 +499,7 @@ display: flex;
     padding-bottom: 10px;
 }
 .poires{
+    cursor: pointer; 
     border: 1px solid #ffffff  ;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -507,6 +517,7 @@ display: flex;
     padding-bottom: 10px;
 }
 .carotte{
+    cursor: pointer; 
     border: 1px solid #ffffff  ;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -524,6 +535,7 @@ display: flex;
     padding-bottom: 10px;
 }
 .epinard{
+    cursor: pointer; 
     border: 1px solid #ffffff  ;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -541,6 +553,7 @@ display: flex;
     padding-bottom: 10px;
 }
 .celeri{
+    cursor: pointer; 
     border: 1px solid #ffffff  ;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -558,6 +571,7 @@ display: flex;
     padding-bottom: 10px;
 }
 .endive{
+    cursor: pointer; 
     border: 1px solid #ffffff  ;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -582,19 +596,32 @@ footer{
     margin-top: 50px;
     filter: invert(100%) sepia(7%) saturate(7495%) hue-rotate(309deg) brightness(114%) contrast(117%);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 10px 46rem;
     
 }
 .contact{
     display: flex;
     justify-content: center;
 }
+.contact img{
+    position: absolute;
+    z-index: 3;
+    margin-right: 17%;
+    margin-top: 12px;
+}
 .contact p{
     background-color: #ff9b90;
     border: 1px solid #ff9b90;
-    border-radius: 20px;
+    border-radius: 50px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 13px;
+    padding-left: 90px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 60px;
+    color: #ffffff;
+    font-weight: bolder;
 }
 .zoom1:hover{
     zoom: 120%;
@@ -603,18 +630,22 @@ footer{
 .zoom2:hover{
     zoom: 120%;
     cursor: pointer; 
+    margin-left: 30px;
 }
 .zoom3:hover{
     zoom: 120%;
-    cursor: pointer; 
+    cursor: pointer;
+    margin-left: 30px;
 }
 .zoom4:hover{
     zoom: 120%;
     cursor: pointer; 
+    margin-left: 30px;
 }
 .zoom5:hover{
     zoom: 120%;
     cursor: pointer; 
+    margin-left: 30px;
 }
 .textchiant{
     margin-left: 25%;
@@ -644,9 +675,13 @@ footer{
     font-size: 13px;
     color: #ffffff;
 }
+.espaceghettoacorriger{
+    padding: 20px;
+}
 
 footer{
     position: relative;
+    padding-top: 2px;
     
 }
 
@@ -663,6 +698,9 @@ footer{
     padding: 11px;
     line-height: 200px;
     
+}
+.fleche img:active{
+    background-color: #ff6e6180;
 }
 .fleche{
    cursor: pointer; 
