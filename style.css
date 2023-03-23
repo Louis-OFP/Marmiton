@@ -7,22 +7,47 @@ header{
     display:flex;
     align-items: center;
 }
+.burjer{
+    margin-left: 1em;
+}
+.barregrise{
+    background-color: #f1eeed;
+    height:40px;
+    width: 2px;
+    margin: 4px 1em;
+}
 .headerp2{
     display:flex;
-    align-items: center;
+
     background-color: #f7f7f7;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    
+    justify-content: center;
 }
+
 .headerp2 p{
-    padding-left: 50px;
+    padding-left: 3px;
+}
+.loupe1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 15em;
 }
 #searchbar{height:auto; flex-grow: 1;}
 .formulaire               {display:flex; align-items: center;}
-.formulaire .champ       {width:100%; height:41px; border-radius: 20px; font-family: 'Open Sans', sans-serif;}
-.formulaire .bouton       { background-image: url(picture/PELOU.svg);background-repeat: no-repeat;width: 35px;height:
-     35px;padding: 0; background-color: #ffffff; border: 1px; border-radius: 20px; background-color: #ff6f61;}
+.formulaire .champ       {width:100%; height:41px; border-radius: 20px; font-family: 'Open Sans', sans-serif; margin-left: 11px;}
+.formulaire .bouton       { background-image: url(picture/PELOU.svg);background-repeat: no-repeat;width: 34px;height:
+     29px; background-color: #ffffff; border: 1px; border-radius: 20px; background-color: #ff6f61; position: absolute;
+    z-index: 3;padding-left: 29px; margin-left: 97em; background-position: center;}
+.barregrise2{
+    background-color: #f1eeed;
+    height:28px;
+    width: 2px;
+    margin: 4px 1em;
+    position: absolute;
+    z-index: 3;
+    margin-left: 80em;
+    }
 .panier{
     border: 1px solid #ff6f61;
     background-color: #ffffff;
@@ -32,7 +57,12 @@ header{
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
 }
-    
+.hover4{
+    padding-left: 2em;
+} 
+.hoover5{
+    padding-left: 2em;
+}   
 .connexion{
     background-color: #ff6f61;
     border: 1px solid #ff6f61;
@@ -42,13 +72,54 @@ header{
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
 }
-header img{
-    width: 140px;
-    height: 48px;
-}
-
 .boldtext{
     font-weight: bold;
+    padding-left: 2em;
+}
+
+.boldtext:hover{
+    color: #ff6f61;
+    cursor: pointer;
+}
+.hover1{
+    display: flex;
+    
+}
+.imgheader{
+    margin: 0px;
+    padding-left: 2em;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+.hover1 p:hover{
+    color: #ff6f61;
+    cursor: pointer;
+}
+.hover1 p{
+    padding-left: 0px;
+}
+.hover2 p:hover{
+    color: #ff6f61;
+    cursor: pointer;
+}
+.hover2{
+    display: flex;
+}
+.hover3 p:hover{
+    color: #ff6f61;
+    cursor: pointer;
+}
+.hover3{
+    display: flex;    
+}
+.hover4:hover{
+    color: #ff6f61;
+    cursor: pointer;
+}
+.hoover5:hover{
+    color: #ff6f61;
+    cursor: pointer;
 }
 .bouffe{
     border-radius: 20px;
@@ -90,6 +161,7 @@ display: flex;
     height: 18px;
     padding-left: 12px;
     padding-top: 350px;
+    cursor: pointer;
 }
 .note{
     color: #ffffff;
@@ -156,6 +228,7 @@ display: flex;
         height: 18px;
         padding-left: 12px;
         padding-top: 350px;
+        cursor: pointer;
     }
     .note2{
         color: #ffffff;
@@ -220,6 +293,7 @@ display: flex;
             height: 18px;
             padding-left: 12px;
             padding-top: 350px;
+            cursor: pointer;
         }
         .note3{
             color: #ffffff;
